@@ -7,7 +7,8 @@ import os
 st.set_page_config(page_title="ClearPath Safety Assistant v2")
 
 # Load logo
-st.image("https://github.com/Seantolik/ClearPath-Safety-Assistant-v2-v2-v2/blob/main/Media/clearpath-logo-narrow.png", use_column_width=False)
+st.title("ClearPath Safety Assistant")
+
 
 # Load OpenAI API key
 openai.api_key = st.secrets["OPENAI_API_KEY"]
