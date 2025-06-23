@@ -1,0 +1,15 @@
+# Ignore secrets and sensitive config
+.streamlit/secrets.toml
+
+# Ignore system files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# Optional: ignore OS files
+.DS_Store
+Thumbs.db
